@@ -1,0 +1,39 @@
+@font-face {
+    font-family: stars;
+    src: url('/STARGUIDES.ttf');
+}
+
+body {
+    background-image: url('http://dl8.glitter-graphics.net/pub/186/186038ysabqxl4i1.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+/* BEGINNING OF HEADER */
+
+.header-container {
+    background-color: #466292;
+    height: 100px;
+    margin: 40px auto 40px auto;
+    text-align: center;
+    width: 42%;
+    border-radius: 10px;
+    border: 2px solid #B8CAE9;
+}
+
+.header-h1 {
+    color: white;
+    font-size: 30px;
+    padding: 2px;
+    font-family: 'stars', cursive;
+}
+
+/* BEGINNING OF DISPLAY */
+
+.display-container {
+    width: 75%;
+    height: 300px;
+    background-color: #25304C;
+    margin: auto;
+    border: 2px solid #B8CAE9;
+}
